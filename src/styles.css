@@ -98,3 +98,57 @@ h3 {
   background-color: var(--primary-color);
   color: #0d6efd;
 }
+@media (max-width: 400px) {
+  h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .about-text p {
+    font-size: 10px;
+
+    text-align: center;
+  }
+  p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .links {
+    margin-top: 10px;
+  }
+  .links a {
+    margin: 10px;
+    border-radius: 4px;
+    padding: 5px 15px;
+  }
+  .contact-link {
+    margin: 0;
+    font-size: 15px;
+  }
+  .about-link {
+    margin: 0px;
+    font-size: 15px;
+  }
+  .primary-link {
+    padding: 6px 100px;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+  }
+  .mt-5 {
+    margin-top: 10px !important;
+  }
+  #contact-me h2 {
+    font-size: 10px;
+    margin-top: 10px !important;
+  }
+  .email {
+    font-size: 10px;
+  }
+}
